@@ -16,4 +16,56 @@
         <p class="text-xs text-slate-500 mt-12">MVP deployed via GitHub + Vercel</p>
     </div>
 </body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TraderHom.org • Trade Your Home. Live Your Adventure.</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@700&display=swap');
+        body { font-family: 'Inter', system_ui, sans-serif; }
+        .heading-serif { font-family: 'Playfair Display', Georgia, serif; font-weight: 700; }
+        .section-header { font-size: 2.25rem; line-height: 2.5rem; font-weight: 700; color: #0F172A; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+    <!-- NAV -->
+    <nav class="bg-white border-b sticky top-0 z-50">
+        <div class="max-w-screen-2xl mx-auto px-8 py-5 flex items-center justify-between">
+            <div class="flex items-center gap-x-3">
+                <img src="images/logo.jpg" alt="TraderHom Logo" class="h-10 w-auto rounded">
+                <span class="font-bold text-3xl tracking-tighter">TraderHom</span>
+            </div>
+            <div class="flex items-center gap-x-8 text-sm font-medium">
+                <a href="#how">How it Works</a>
+                <a href="#shop">Shop</a>
+                <a href="#finance">Financing</a>
+            </div>
+            <div class="flex items-center gap-x-3">
+                <button onclick="alert('Wishlist coming soon')">❤️ Wishlist</button>
+                <button onclick="alert('Cart coming soon')">🛒 Cart</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="relative h-screen flex items-center justify-center bg-slate-950 text-white overflow-hidden">
+        <div class="text-center px-8 max-w-3xl">
+            <h1 class="text-6xl font-bold tracking-tighter mb-6 heading-serif">
+                Trade your home in.<br>
+                <span class="text-teal-400">Buy what you actually want.</span>
+            </h1>
+            <p class="text-2xl mb-8">While you wait for 3 offers on your home.</p>
+            <p class="text-lg mb-10">30-day price guarantee. Same-as-cash options. Financing that understands your timeline.</p>
+            <button onclick="document.getElementById('shop').scrollIntoView({behavior:'smooth'})" class="px-10 py-4 bg-white text-black font-semibold rounded-3xl text-xl hover:bg-slate-100">Start Shopping Now</button>
+        </div>
+    </header>
+
+    <footer class="text-center py-8 text-sm text-slate-500">
+        TraderHom.org MVP - Deployed via GitHub + Vercel
+    </footer>
+</body>
 </html>
